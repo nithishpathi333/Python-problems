@@ -4,7 +4,7 @@ Q: Inheritance example
     def action(self):
         print("he brought me a cycle")
   class son(father):
-      def action(self):
+      def cycle(self):
           print("Riding a cycle")
           
   nithish=son()
@@ -14,7 +14,7 @@ Q: Inheritance example
 
 output: 
 
-  Riding a cycle
+  he brought me a cycle
   he brought me a cycle
 
   
