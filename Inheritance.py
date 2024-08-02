@@ -7,14 +7,15 @@ Q: Inheritance example
       def cycle(self):
           print("Riding a cycle")
           
-  nithish=son()
-  nithish.action()
-  karunkar=father()
-  karunkar.action()
+  son().action()
+  father().action()
 
 output: 
 
   he brought me a cycle
   he brought me a cycle
+
+NOTE: [ You are inheriting the father in son's class so when we call son() 
+      with action() of father's then its giving the action of father because son is inheriting the properties from father ]
 
   
