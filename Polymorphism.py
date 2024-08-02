@@ -1,7 +1,7 @@
-class father:
+class father():
     def role(self):
         print("taking care of family")
-class officeemployee:
+class officeemployee():
     def role(self):
         print("working hard in office")
       
